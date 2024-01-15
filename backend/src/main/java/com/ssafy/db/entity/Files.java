@@ -1,27 +1,3 @@
-package com.ssafy.db.entity;
-
-import jakarta.persistence.*;
-
-@Entity
-@Table(name="Files")
-public class Files {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer fileId;
-
-    @ManyToOne
-    @JoinColumn(name="member_id")
-    private Members memberId;
-
-//    @ManyToOne
-//    @JoinColumn(name="portfolio_id")
-//    private String portfolioId;
-
-    private String name;
-    private String url;
-    private String type;
-    private String modifyDate;
-    private String createDate;
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:07f21337b9edcd3cb20716cbd78c6d06b615a0450359e3377943eb2bdd405cfb
+size 698
