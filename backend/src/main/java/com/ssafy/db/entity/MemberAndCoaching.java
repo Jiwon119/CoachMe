@@ -1,23 +1,3 @@
-package com.ssafy.db.entity;
-
-import jakarta.persistence.*;
-
-@Entity
-public class MemberAndCoaching {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer mycoachingList;
-
-    @ManyToOne
-    @JoinColumn(name="coaching_date_id")
-    private CoachingDates coachingDateId;
-
-    @ManyToOne
-    @JoinColumn(name="member_id")
-    private Members memberId;
-
-    private String createDate;
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8451c6eea52eb46c4824b73f80eea73932245c462ef8b93c3382ee7b3dae9f7
+size 519
