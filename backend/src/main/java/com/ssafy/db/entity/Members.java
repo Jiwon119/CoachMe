@@ -1,18 +1,3 @@
-package com.ssafy.db.entity;
-
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-
-@Entity
-public class Members {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
-
-    private String userId;
-    private String userPw;
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5bda33f1f9abce9fa12e0a820590c54fe3e748d96d82ce353abf6f6817ff7856
+size 776
