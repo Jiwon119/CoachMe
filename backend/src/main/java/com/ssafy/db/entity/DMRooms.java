@@ -1,25 +1,3 @@
-package com.ssafy.db.entity;
-
-import jakarta.persistence.*;
-import org.springframework.data.annotation.CreatedDate;
-
-import java.time.LocalDateTime;
-
-@Entity
-public class DMRooms {
-    @Id
-    @GeneratedValue
-    private int dmroom_id;
-
-    @ManyToOne
-    @JoinColumn(name = "member_id")
-    private Members coame;
-
-    @ManyToOne
-    @JoinColumn(name = "member_id")
-    private Members coach;
-
-    @CreatedDate
-    @Column
-    private LocalDateTime create_date;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba2148cd3582d761ae3224d7c01d9dd8bca1dd60510371b541dcb10351eaddc7
+size 529
