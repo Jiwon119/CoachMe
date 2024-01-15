@@ -1,14 +1,3 @@
-package com.ssafy.db.entity;
-
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-
-@Entity
-public class CoachingDates {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer coachingDateId;
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:010bc83900ad9df427634db3a1fcbef6947996d3cd20b70741ca4fabbe946b95
+size 535

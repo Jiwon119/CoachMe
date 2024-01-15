@@ -1,15 +1,3 @@
-package com.ssafy.db.entity;
-
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-
-@Entity
-public class Likes {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer likeId;
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f1e38c31ac437b5e2e82f12cc52b05250174b32c445a9f44f81a15260ccfb88
+size 539
