@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ae880892a2ffef8c8b6070e0de7e3c2cde7633f5870b821093ea2e321e2cd0d5
-size 228
+package com.ssafy.db.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
+@Entity
+public class DMRooms {
+    @Id
+    @GeneratedValue
+    private int dmroom_id;
+}
