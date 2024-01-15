@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:da6c3e98ba33c9c364433325f97e91cc69100524433bf0f8dcd818e59a62a34d
-size 276
+package com.ssafy.db.repository;
+
+import jakarta.persistence.EntityManager;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Repository;
+
+@Repository
+@RequiredArgsConstructor
+public class MemberRepository {
+
+    private final EntityManager em;
+
+
+}
