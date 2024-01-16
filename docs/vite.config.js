@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:38f379cd256f55c151ee2772edaeefade3b837d0918d23e5a2360db24e7c449b
-size 332
+import { fileURLToPath, URL } from 'node:url'
+
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [vue()],
+  resolve: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url))
+    }
+  },
+  server: {
+    port: 1234
+  }
+})
