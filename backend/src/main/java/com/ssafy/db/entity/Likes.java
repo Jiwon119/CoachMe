@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a624048f7bd048b3fc634b20c3be8e3161bd5ac3030812e0b92da2f8e549a2c6
-size 536
+package com.ssafy.db.entity;
+
+import jakarta.persistence.*;
+
+@Entity
+public class Likes {
+
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
+  @Column(name = "like_id")
+  private Integer likeId;
+
+  @ManyToOne
+  @JoinColumn(name = "coach_member_id")
+  private Member coach;
+
+  @ManyToOne
+  @JoinColumn(name = "coame_member_id")
+  private Member coame;
+
+  @ManyToOne
+  @JoinColumn(name = "coaching_id")
+  private Coaching coaching;
+
+  @Column(name = "is_mycoaching")
+  private Integer isMycoaching;
+
+}

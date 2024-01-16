@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d17692abf8205aa264bef259de827130ad9d7107a70202cf955b937c3e5b275b
-size 526
+package com.ssafy.db.entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import org.springframework.data.annotation.CreatedDate;
+
+import java.time.LocalDateTime;
+
+@Entity
+public class Portfolio {
+  @Id
+  @GeneratedValue
+  @Column(name = "portfolio_id")
+  private int portfolioId;
+
+  @Column
+  private String description;
+
+  @CreatedDate
+  @Column(name = "create_date")
+  private LocalDateTime createDate;
+}
