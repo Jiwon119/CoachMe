@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:277cfffba0efd9857003577a06ebfafd5ac580d8264e587d813743c2a9be0d7c
-size 237
+<template>
+  <div id="Wireframe">
+    <h1 class="mt-3 mb-3">화면명세서(Wireframe)</h1>
+    <hr />
+    <iframe class="rounded shadow" style="width: 88vw; height: 80vh" src="/src/assets/pdf/CoachME.pdf"></iframe>
+  </div>
+</template>
