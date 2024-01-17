@@ -1,17 +1,3 @@
-import { setupWorker } from 'msw/browser'
-import { HttpResponse, http } from 'msw'
-
-const mockLoginResponseDto = {
-  memberId: '123',
-  privilege: '1',
-  accessToken: 'mock-access-token',
-  refreshToken: 'mock-refresh-token'
-}
-
-const handlers = [
-  http.post('http://localhost/members/login', () => {
-    return HttpResponse.json(mockLoginResponseDto)
-  })
-]
-
-export const worker = setupWorker(...handlers)
+version https://git-lfs.github.com/spec/v1
+oid sha256:c68f7c9227ecfd6275d1fc1fa972a3c22d766713608136c29216de0fb4517220
+size 592
