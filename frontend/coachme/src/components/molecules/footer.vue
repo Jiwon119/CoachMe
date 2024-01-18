@@ -1,25 +1,3 @@
-<!-- footer 컴포넌트
--->
-
-<script setup>
-</script>
-
-<template>
-  <img src="../icons/2.png" width="150px">
-  <div class="address">
-    <h6>서울 강남구 테헤란로 212</h6>
-    <h6>역삼 멀티캠퍼스 12층 403</h6>
-    <h6>Copyright ©SSAFY. All Rights Reserved.</h6>
-  </div>
-</template>
-
-<style scoped>
-img {
-  margin-top: 3vh;
-  margin-bottom: 3vh;
-}
-
-.address {
-  margin-bottom: 2vh;
-}
-</style>
+version https://git-lfs.github.com/spec/v1
+oid sha256:009ed4074753ac6a5df5348762c14fc1b381f076cf99afa4b692c604b0c7614c
+size 518
