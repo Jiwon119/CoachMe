@@ -1,20 +1,3 @@
-server:
-  servlet:
-    context-path: '/'
-  port: 80
-
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/test?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
-    username: ssafy
-    password: ssafy
-  jpa:
-    properties:
-      hibernate:
-        format_sql: true
-        dialect:
-    show-sql: true
-    hibernate:
-      ddl-auto: create
-      dialect: org.hibernate.dialect.MySQL8InnoDBDialect
+version https://git-lfs.github.com/spec/v1
+oid sha256:62f7c3873e068c64ff46d8773eb25b9df24b59485b8a9860086b2f59e971c79b
+size 731
