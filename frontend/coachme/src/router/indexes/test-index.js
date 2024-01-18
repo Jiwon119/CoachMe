@@ -1,20 +1,3 @@
-import TestIndexView from '../../tests/views/TestIndexView.vue'
-import TestLoginView from '../../tests/views/TestLoginView.vue'
-import TestRegistView from '../../tests/views/TestRegistView.vue'
-export default [
-  {
-    path: '/test',
-    name: 'test-index',
-    component: TestIndexView
-  },
-  {
-    path: '/test/login',
-    name: 'test-login',
-    component: TestLoginView
-  },
-  {
-    path: '/test/regist',
-    name: 'test-regist',
-    component: TestRegistView
-  }
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:606f569f286843aac062884db3b5707055764e3f0b9b59a34df0375ddd715c1d
+size 660
