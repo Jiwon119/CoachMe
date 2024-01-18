@@ -1,13 +1,3 @@
-<template>
-  <div class="q-ma-lg">
-    <h3 class="mt-5">테스트를 위한 Index Page</h3>
-    <div class="q-pa-md q-gutter-sm">
-      <RouterLink :to="{ name: 'test-login' }">
-        <q-btn color="white" text-color="black" label="로그인" />
-      </RouterLink>
-      <RouterLink :to="{ name: 'test-regist' }">
-        <q-btn color="primary" label="회원가입" />
-      </RouterLink>
-    </div>
-  </div>
-</template>
+version https://git-lfs.github.com/spec/v1
+oid sha256:06a6aa42f28620c31cbe65ef459ff47aa19208709cde14edd1f09605077a0868
+size 561
