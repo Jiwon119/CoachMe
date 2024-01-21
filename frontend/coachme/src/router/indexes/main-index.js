@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:aceb667751bda8589be7478bdc8d430e9ebafcf253d48937246fccc9fb5a76e8
-size 1045
+import MainView from '../../views/MainView.vue'
+export default [
+  {
+    path: '/',
+    name: 'Desktop-1',
+    component: MainView
+  },
+  {
+    path: '/login',
+    name: 'Desktop-2',
+    component: () => import('../../views/LoginView.vue')
+  },
+  {
+    path: '/regist',
+    name: 'Desktop-3',
+    component: () => import('../../views/RegistView.vue')
+  },
+  {
+    path: '/find-password',
+    name: 'Desktop-4',
+    component: () => import('../../views/FindPasswordView.vue')
+  }
+]
