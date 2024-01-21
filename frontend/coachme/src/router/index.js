@@ -1,10 +1,3 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import mainIndex from './indexes/main-index'
-import testIndex from './indexes/test-index'
-
-const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [...mainIndex, ...testIndex]
-})
-
-export default router
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca7582b07d7ef38c63a508e07623a019db199eafed31c686894e2a1c8bc89e98
+size 366
