@@ -1,22 +1,3 @@
-<!-- App.vue -->
-
-<template>
-  <div id="app">
-    <MainLayout></MainLayout>
-  </div>
-</template>
-
-<script>
-import MainLayout from '@/layout/MypageLayout.vue';
-
-export default {
-  components: {
-    MainLayout
-  }
-};
-</script>
-
-<style>
-
-</style>
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc09ec53563fa0084f20ec3684d1856aed6b5818cc097d7062a43b17045f5fb3
+size 104
