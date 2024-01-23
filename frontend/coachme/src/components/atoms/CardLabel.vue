@@ -1,21 +1,3 @@
-<!-- 카드에 붙을 라벨 컴포넌트
-필요한 정보 : 라벨
-label : 카드의 라벨. 문자열. 기본값은 "라벨"
--->
-
-<script setup>
-const props = defineProps({
-  label : {  
-    type : String,
-    default : "라벨"
-  },
-})
-</script>
-
-<template>
-  <q-item-label>{{label}}</q-item-label>
-</template>
-
-<style scoped>
-
-</style>
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2c0bf6e11272a2e2400691199631584811f9456dd9688fbe580c08a70ce1288
+size 339
