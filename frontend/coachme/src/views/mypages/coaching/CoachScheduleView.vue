@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:65533a010aaa704d170132a9d63d7e0ded885851cbfcb75b520371043850e61b
-size 2660
+<script setup></script>
+<template>
+  <h1>Coach Schedule View</h1>
+</template>
+
+<style scoped></style>
