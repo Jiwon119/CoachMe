@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5eca950d877ba86be88c0cf351f98817cf8928a862399d0763e02577fa35e1ce
-size 284
+package com.ssafy.api.admin.dto;
+
+import lombok.Data;
+
+@Data
+public class MemberListResponseDto {
+
+  private String id;
+  private String priv;
+  private String name;
+  private String nick;
+  private String phone;
+  private String email;
+  private String cdate;
+  private int elev;
+
+}
