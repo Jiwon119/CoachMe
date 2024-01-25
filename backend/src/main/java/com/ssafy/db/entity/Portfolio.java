@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5cda2089bc029b3985e46a72e53be4412733fe6521da7ad0b99f31e1cbc66734
-size 538
+package com.ssafy.db.entity;
+
+import com.ssafy.db.entity.member.Member;
+import jakarta.persistence.*;
+import lombok.Getter;
+import org.springframework.data.annotation.CreatedDate;
+
+import java.time.LocalDateTime;
+
+@Entity
+@Getter
+public class Portfolio extends BaseEntity {
+  @Id @GeneratedValue
+  @Column(name = "portfolio_id")
+  private Long id;
+
+  @OneToOne(fetch = FetchType.LAZY)
+  @JoinColumn(name = "member_id")
+  @Column
+  private Member member;
+
+  @Column
+  private String htmlDocs;
+}
