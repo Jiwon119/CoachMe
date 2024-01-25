@@ -1,16 +1,3 @@
-package com.ssafy;
-
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
-
-@SpringBootApplication
-@EnableJpaAuditing
-//@ComponentScan(basePackages = "com.ssafy")
-public class CoachMeApplication {
-
-  public static void main(String[] args) {
-    SpringApplication.run(CoachMeApplication.class, args);
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:27ddd134e2572d1799810fbfc8793bab8e69c7b27eb0f75999bc0f9791b40bc7
+size 530
