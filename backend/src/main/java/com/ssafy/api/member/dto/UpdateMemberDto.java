@@ -1,13 +1,3 @@
-package com.ssafy.api.member.dto;
-
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
-@NoArgsConstructor
-public class UpdateMemberDto {
-  private String pw;
-  private String name;
-  private String nick;
-  private String email;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c76495051c640bb9e6dcf10dceea197015db826baa66798646db91857253e7e7
+size 238
