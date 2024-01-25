@@ -1,14 +1,3 @@
-package com.ssafy.api.member.dto;
-
-import lombok.Data;
-
-@Data
-public class RegistMemberDto {
-
-  private String id;
-  private String pw;
-  private String name;
-  private String nick;
-  private String email;
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:762e2ae0474307845bd0f9488bf95db5bca1afc7b7d8dceb889e58bd944addd8
+size 209
