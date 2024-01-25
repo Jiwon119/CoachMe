@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5d149992782f1dea5f8f6b7bafd15fd824e7c836ee2163cc57be35507af7e0ca
-size 679
+package com.ssafy.db.entity;
+
+import jakarta.persistence.*;
+
+import java.util.List;
+
+@Entity
+public class CoameCoaching extends BaseEntity{
+
+  @Id @GeneratedValue(strategy = GenerationType.AUTO)
+  @Column(name = "coame_coaching_id")
+  private Long id;
+
+  @ManyToOne
+  @JoinColumn(name = "member_id")
+  private Member coame;
+
+  @ManyToOne
+  @JoinColumn(name = "coaching_id")
+  private Coaching coaching;
+
+  @OneToMany
+  @JoinColumn(name ="live_coaching_id")
+  private List<LiveCoaching> liveCoachings;
+}
