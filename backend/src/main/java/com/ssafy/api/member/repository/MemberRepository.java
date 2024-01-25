@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7f5f509e5360f7323cf82bb51e48e90737962226794e3bf0ffe4c983e912045c
-size 624
+package com.ssafy.api.member.repository;
+
+import com.ssafy.db.entity.Member;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+import java.util.Optional;
+
+@Repository
+public interface MemberRepository extends JpaRepository<Member, Long> {
+    List<Member> findByStringId(String stringId);
+
+}
