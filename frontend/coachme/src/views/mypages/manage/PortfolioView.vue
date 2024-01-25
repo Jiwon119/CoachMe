@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ba0a7c70831563b2b5ab93f1e7d7332a2480ff257faa344dcf6be1d36b4a380
-size 444
+<script setup>
+import MypageTopBar from '@/components/molecules/MypageTopBar.vue'
+
+const TopButtonList = [
+  { name: '포트폴리오', link: '/mypage/coach/manage/portfolio', cssClass: 'selected-button' },
+  { name: '코칭관리', link: '/mypage/coach/manage/coaching' },
+  { name: '영상관리', link: '/mypage/coach/manage/video' }
+]
+</script>
+<template>
+  <MypageTopBar :button-list="TopButtonList" />
+</template>
+
+<style scoped></style>
