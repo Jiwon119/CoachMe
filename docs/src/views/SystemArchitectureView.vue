@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f9757611ed379d04247c49e1e57c681744eb40b240d85bc464bfbc266ebe769e
-size 282
+<template>
+  <h1 class="mt-3 mb-3">System Architecture</h1>
+  <hr />
+  <div class="container">
+    <img src="../assets/img/project_architecture.png" style="width: 100%" onclick="window.open(this.src)" />
+  </div>
+</template>
+<style scoped>
+img:hover {
+  cursor: pointer;
+}
+</style>
