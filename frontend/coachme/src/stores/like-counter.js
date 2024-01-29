@@ -1,18 +1,3 @@
-/* 찜콩버튼 id 구분용 */
-
-import { ref } from 'vue'
-import { defineStore } from 'pinia'
-
-export const useCounterStore = defineStore('counter', () => {
-  const count = ref(0) // 현재 웹페이지의 찜콩 버튼 개수
-  
-  function incrementCount() {
-    count.value++
-  } // 찜콩 버튼이 생성되면 +1
-
-  function getCount() {
-    return count.value
-  } // id 생성용 getter
-  
-  return { count, incrementCount, getCount } 
-})
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc170068fee1514bfacc25175dbabbfec3bd63cbede9778493f30f0e1232e17b
+size 446
