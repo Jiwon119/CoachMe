@@ -1,18 +1,3 @@
-<!-- 수정 아이콘 버튼 컴포넌트 -->
-<script setup>
-
-</script>
-
-<template>
-    <q-btn flat>
-    <span class="material-symbols-outlined">
-      edit
-    </span>
-  </q-btn>
-</template>
-
-<style scoped>
-.material-symbols-outlined {
-  font-size: 25px;
-}
-</style>
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c3921dba2f4b6167c00475e3c996ebc1be752e45d7855e79bc558bd329074e9
+size 266

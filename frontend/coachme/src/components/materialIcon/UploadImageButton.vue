@@ -1,18 +1,3 @@
-<!-- 이미지 등록 아이콘 버튼 컴포넌트 -->
-<script setup>
-
-</script>
-
-<template>
-    <q-btn flat>
-    <span class="material-symbols-outlined">
-      add_photo_alternate
-    </span>
-  </q-btn>
-</template>
-
-<style scoped>
-.material-symbols-outlined {
-  font-size: 25px;
-}
-</style>
+version https://git-lfs.github.com/spec/v1
+oid sha256:751f39216742c1551c4c073ec88ba2e7e8a591b7e8a031f1dc3e3ba39aa8bc54
+size 291
