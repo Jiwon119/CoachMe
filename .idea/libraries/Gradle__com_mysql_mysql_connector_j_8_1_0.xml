@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e6d9eff15b6c3ced7b6e5f9d1cb009fd81c4fd1b4e006bcbb9ff1f2164376c9c
-size 493
+<component name="libraryTable">
+  <library name="Gradle: com.mysql:mysql-connector-j:8.1.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.mysql" artifactId="mysql-connector-j" version="8.1.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mysql/mysql-connector-j/8.1.0/3f78d2963935f44a61edb3961a591cdc392c8941/mysql-connector-j-8.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
