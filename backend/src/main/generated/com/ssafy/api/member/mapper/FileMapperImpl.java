@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8ea058455e10ef9d7f62219f4cbf22e0f8caa3340336c8deec01117d35b050d7
-size 334
+package com.ssafy.api.member.mapper;
+
+import javax.annotation.processing.Generated;
+
+@Generated(
+    value = "org.mapstruct.ap.MappingProcessor",
+    date = "2024-01-25T14:57:17+0900",
+    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 17.0.3 (ojdkbuild)"
+)
+public class FileMapperImpl implements FileMapper {
+}

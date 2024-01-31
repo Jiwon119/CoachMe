@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:55875b737641b8cf9698ff26430ef4c45abed1b7ae2bc21b3cda9bf4be895402
-size 487
+<component name="libraryTable">
+  <library name="Gradle: software.amazon.ion:ion-java:1.0.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="software.amazon.ion" artifactId="ion-java" version="1.0.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.ion/ion-java/1.0.2/ee9dacea7726e495f8352b81c12c23834ffbc564/ion-java-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
