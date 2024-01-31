@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3ccb7ab4b7754b06bc13810a699e1e4844a6723e419b11483c1194240e71cbc2
-size 994
+package com.ssafy.api.admin.dto.response;
+
+import com.ssafy.db.entity.status.MemberStatus;
+import com.ssafy.db.entity.type.Privilege;
+import lombok.Data;
+import lombok.extern.slf4j.Slf4j;
+
+import java.time.LocalDateTime;
+
+@Data
+@Slf4j
+public class AdminMembersResponseDto {
+
+  private String stringId;
+  private Privilege priv;
+  private String name;
+  private String nick;
+  private String email;
+  private LocalDateTime cdate;
+  private LocalDateTime mdate;
+  private MemberStatus status;
+}
