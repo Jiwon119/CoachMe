@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:83b4661a81e6743ff07932b7ea6af92285bec93191cafbb466b02a2be26ccfb3
-size 457
+<script setup>
+import { ref } from 'vue'
+
+const menus = ref(['코치 소개', '제공 코칭', '리뷰'])
+// 중단 메뉴 리스트
+const tab = ref('')
+// 현재 누른 탭이 어디인지
+
+</script>
+
+<template>
+  <q-tabs align="left" v-model="tab" class="bg-white text-black" flat>
+    <div v-for="(menu, index) in menus" :key="menu">
+        <q-tab :name="menu" :label="menu">
+        </q-tab>
+      </div>
+  </q-tabs>
+</template>
+
+<style scoped></style>
