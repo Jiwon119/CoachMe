@@ -1,10 +1,3 @@
-<component name="libraryTable">
-  <library name="Gradle: org.springframework:spring-aspects:6.1.2" type="java-imported" external-system-id="GRADLE">
-    <properties groupId="org.springframework" artifactId="spring-aspects" version="6.1.2" />
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/6.1.2/423247e0be90804888668ea16d7e7f0d9168a7b9/spring-aspects-6.1.2.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3b73f6c9906d5aa7760bd000f63cc18b53ca80b94104b9dfeb59349973d267c
+size 511

@@ -1,10 +1,3 @@
-<component name="libraryTable">
-  <library name="Gradle: org.springframework:spring-tx:6.1.2" type="java-imported" external-system-id="GRADLE">
-    <properties groupId="org.springframework" artifactId="spring-tx" version="6.1.2" />
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/6.1.2/48b9ff81c43345320779b402f1bb33b9f46ec4e9/spring-tx-6.1.2.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef19596aa8b7a421a9df4c245acf3442fcb21a5152242f0ec6bfaafc3864f6ef
+size 491

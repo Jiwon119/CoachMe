@@ -1,16 +1,3 @@
-package com.ssafy.api.auth.dto.response;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-public class TokenResponseDto {
-
-    private String accessToken;
-    private String refreshToken;
-
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f84356c4e0c44f46cc38a18996cf3b5a1b5b22bf8cf22a680ac84510cfc9d2f
+size 277

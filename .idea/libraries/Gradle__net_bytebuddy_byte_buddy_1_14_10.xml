@@ -1,10 +1,3 @@
-<component name="libraryTable">
-  <library name="Gradle: net.bytebuddy:byte-buddy:1.14.10" type="java-imported" external-system-id="GRADLE">
-    <properties groupId="net.bytebuddy" artifactId="byte-buddy" version="1.14.10" />
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.14.10/8117daf4a612122eb4f517f66adff778cb8b4737/byte-buddy-1.14.10.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:a125f85ad0f022e930c5fe60d6d982915e3046fe8dbe9b52acc902cd70b6abca
+size 485

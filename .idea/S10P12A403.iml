@@ -1,11 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/backend/src" isTestSource="false" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f1e2b5c35920c9a97c5e644573a31a0faa11460a0172cc4aee3afdb5ec10d61
+size 431

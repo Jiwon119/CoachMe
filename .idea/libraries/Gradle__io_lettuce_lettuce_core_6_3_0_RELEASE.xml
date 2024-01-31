@@ -1,10 +1,3 @@
-<component name="libraryTable">
-  <library name="Gradle: io.lettuce:lettuce-core:6.3.0.RELEASE" type="java-imported" external-system-id="GRADLE">
-    <properties groupId="io.lettuce" artifactId="lettuce-core" version="6.3.0.RELEASE" />
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.lettuce/lettuce-core/6.3.0.RELEASE/e19d2afef1c5c76a6d25ae846a3fe57d8dde8a66/lettuce-core-6.3.0.RELEASE.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa6d2b564065b59817e21529f704f85b63ebc871e0ce6c9d68eb985d0f4aa508
+size 508
