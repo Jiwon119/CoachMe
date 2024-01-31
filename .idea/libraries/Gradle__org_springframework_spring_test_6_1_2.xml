@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4ee0efce568a27486a41271e5558f0aea4668ef8e04e44a4fb2757547be1155a
-size 499
+<component name="libraryTable">
+  <library name="Gradle: org.springframework:spring-test:6.1.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.springframework" artifactId="spring-test" version="6.1.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/6.1.2/c393079051398e02c20d8b24e02822f365123719/spring-test-6.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
