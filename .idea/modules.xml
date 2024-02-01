@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6d7af181aceb178e862cedd4b6fc85ff226a589197369a5f5d5a3cb130279a06
-size 280
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/release-branch.iml" filepath="$PROJECT_DIR$/.idea/release-branch.iml" />
+    </modules>
+  </component>
+</project>
