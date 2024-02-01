@@ -1,25 +1,3 @@
-<script setup>
-import { ref } from 'vue'
-
-const props = defineProps({
-  menus : {  
-    type : Object,
-  },
-})
-
-// 중단 메뉴 리스트
-const tab = ref('')
-// 현재 누른 탭이 어디인지
-
-</script>
-
-<template>
-  <q-tabs align="left" v-model="tab" class="bg-white text-black" flat>
-    <div v-for="(menu, index) in menus" :key="menu">
-        <q-tab :name="menu" :label="menu">
-        </q-tab>
-      </div>
-  </q-tabs>
-</template>
-
-<style scoped></style>
+version https://git-lfs.github.com/spec/v1
+oid sha256:c323f445e7394d0d4cdb766e2181d5602dde29a70684d9abc95535b38dab9f59
+size 591
