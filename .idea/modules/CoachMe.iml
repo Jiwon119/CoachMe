@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6c4027b3b2daf68b6da5cbe3003802a518429edd460bfa7fa67effa161a19c21
-size 878
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/../../backend" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/../../backend/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../backend/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../backend/build" />
+    </content>
+  </component>
+</module>
