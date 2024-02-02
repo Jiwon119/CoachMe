@@ -1,20 +1,3 @@
-package com.ssafy.db.entity.type;
-
-import com.fasterxml.jackson.annotation.JsonValue;
-import lombok.ToString;
-
-@ToString
-public enum Privilege {
-    COACH("COACH"), COAME("COAME"), ADMIN("ADMIN");
-
-    private String privilegeCode;
-
-    Privilege(String privilegeCode){
-        this.privilegeCode = privilegeCode;
-    }
-
-    @JsonValue
-    public String getPrivilegeCode(){
-        return this.privilegeCode;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:77031879b228fed1b824f6bc7d15ca88a1b4113dd0ceced81e7b9c37b2c582b9
+size 397

@@ -1,19 +1,3 @@
-package com.ssafy.db.entity;
-
-import jakarta.persistence.*;
-
-@Entity
-public class VideoCoaching {
-
-  @Id @GeneratedValue(strategy = GenerationType.AUTO)
-  @Column(name = "video_coaching_id")
-  private Long id;
-
-  @ManyToOne
-  @JoinColumn(name = "coaching_id")
-  private Coaching coaching;
-
-  @ManyToOne
-  @JoinColumn(name = "file_id")
-  private File file;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8fbb219f3088359c461306a3e55abf6f95a44c3879d689dbbf145b46586f2f24
+size 360
