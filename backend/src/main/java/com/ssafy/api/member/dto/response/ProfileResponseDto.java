@@ -1,11 +1,3 @@
-package com.ssafy.api.member.dto.response;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-
-@Data
-@AllArgsConstructor
-public class ProfileResponseDto {
-  private String profileText;
-  private String profileImageUrl;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9070925a08087ba4c805a1ac0755e3c90665a35e6c4dcf921432e7e0eb1984dc
+size 227
