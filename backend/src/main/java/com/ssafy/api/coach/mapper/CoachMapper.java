@@ -1,12 +1,3 @@
-package com.ssafy.api.coach.mapper;
-
-import com.ssafy.api.coach.dto.response.PortfolioResponseDto;
-import com.ssafy.db.entity.Portfolio;
-import org.mapstruct.Mapper;
-import org.mapstruct.factory.Mappers;
-
-@Mapper
-public interface CoachMapper {
-  CoachMapper instance = Mappers.getMapper(CoachMapper.class);
-  PortfolioResponseDto PortfolioToPortfolioResponseDto(Portfolio portfolio);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4eff2e38c0b29b2d328ef666d18421bb8195abdd299d9b97c724781f525fa91
+size 386
