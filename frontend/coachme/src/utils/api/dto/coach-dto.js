@@ -1,12 +1,3 @@
-export class changePortfolioRequsetDto {
-  /**
-   * API번호 : member-4
-   * 권한상승 요청을 위한 DTO 클래스
-   * @param {String} longId
-   * @param {String} htmlDocs
-   */
-  constructor(longId, htmlDocs) {
-    this.longId = longId
-    this.htmlDocs = htmlDocs
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c77ac9e30cd212889b0cebd3e97fdafbffd3d963c44360613deeca0541b250d2
+size 957
