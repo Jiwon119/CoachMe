@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:48d494106ae8c2fcad9407dab3ade3d146c1afd11ad2acb30f3f2dc7cc3ab816
-size 417
+package com.ssafy.api.admin.dto.response;
+
+import com.ssafy.db.entity.Member;
+import lombok.Data;
+
+@Data
+public class AdminElevationsResponseDto {
+
+  private Long longId;
+  private String name;
+  private String portfolio;
+
+  public AdminElevationsResponseDto(Member member) {
+    this.longId = member.getLongId();
+    this.name = member.getName();
+    this.portfolio = member.getPortfolio().getHtmlDocs();
+  }
+
+  ;
+}
