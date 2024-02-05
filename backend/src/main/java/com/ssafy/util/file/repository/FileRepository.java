@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f3bc577a901f2d5ad1817e80d5b177dbab9c57244395cce1b1a2daf9b765edd4
-size 271
+package com.ssafy.util.file.repository;
+
+import com.ssafy.db.entity.File;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface FileRepository extends JpaRepository<File, Long> {
+
+
+}
