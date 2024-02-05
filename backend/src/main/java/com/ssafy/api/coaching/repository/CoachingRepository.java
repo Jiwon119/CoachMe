@@ -1,13 +1,3 @@
-package com.ssafy.api.coaching.repository;
-
-import com.ssafy.db.entity.Coaching;
-import com.ssafy.db.entity.Member;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
-
-import java.util.List;
-
-@Repository
-public interface CoachingRepository extends JpaRepository<Coaching, Long> {
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c1dec47f963744c04fecbb94bbe486993424aaad910a5d1677555b68cb60d1ff
+size 2181
