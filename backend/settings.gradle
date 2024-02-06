@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:84e13aa542297d5b146485fd8317fd83db11e88fbb6b68896d64950d0a0fac1c
-size 29
+rootProject.name = 'CoachMe'
