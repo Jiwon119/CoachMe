@@ -1,20 +1,3 @@
-package com.ssafy.api.dm.dto.response;
-
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-import java.time.LocalDateTime;
-
-// DmRoom 조회에 사용되는 DTO
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
-public class DmRoomResponseDto {
-  private int roomId;
-  private long coameId;
-  private long coachId;
-  private LocalDateTime createDate;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:451352f96168d08cdf48741e6435789045e866b652303cba597d4d5e1379940b
+size 401
