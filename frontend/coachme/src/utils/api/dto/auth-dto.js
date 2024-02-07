@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5915a4e6b55c74fabbf66b1e6b0dd502b7d3c0a961510cff89805280532dcd58
-size 241
+export class LoginRequestDto {
+  /**
+   * API번호 : member-1
+   * 로그인 요청을 위한 DTO 클래스
+   * @param {*} stringId
+   * @param {*} pw
+   */
+  constructor(stringId, pw) {
+    this.stringId = stringId
+    this.pw = pw
+  }
+}
