@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f9606383c9ed5b65b0f8568fc311c0a1c6faf00a42d79c0be363dfc091190b1d
-size 428
+package com.ssafy.api.coaching.dto.response;
+
+import lombok.Data;
+
+@Data
+public class CoachingPopularResponseDto {
+  long coacingId;
+  String coacingVideoUrl;
+  String coacingName;
+  float coacingReviewAvg;
+
+  CoachingPopularResponseDto(long coacingId, String coacingName, double coacingReviewAvg) {
+    this.coacingId = coacingId;
+    this.coacingName = coacingName;
+    this.coacingReviewAvg = (float) coacingReviewAvg;
+  }
+}
