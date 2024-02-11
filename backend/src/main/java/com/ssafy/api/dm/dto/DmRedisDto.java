@@ -1,16 +1,3 @@
-package com.ssafy.api.dm.dto;
-
-import lombok.Builder;
-import lombok.Data;
-
-import java.time.LocalDateTime;
-
-// Redis에서 MySql로 저장시 사용되는 Dto
-@Builder
-@Data
-public class DmRedisDto {
-  private int roomId;
-  private long member;
-  private String message;
-  private LocalDateTime createDate;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:870b73a9935a862fa1d5f2aaa81b96ea5e32d3bb372a044cfddc8fed3d35c2f8
+size 309
