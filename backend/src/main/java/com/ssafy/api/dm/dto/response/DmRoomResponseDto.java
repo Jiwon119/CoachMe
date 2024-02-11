@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f884776f0720759a49f31f583e384aa1d6f90bb123826f53b442481cb7e76d4e
-size 387
+package com.ssafy.api.dm.dto.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+// DmRoom 조회에 사용되는 DTO
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class DmRoomResponseDto {
+  private int roomId;
+  private String memberProfileUrl;
+  private String memberName;
+  private String lastDm;
+}

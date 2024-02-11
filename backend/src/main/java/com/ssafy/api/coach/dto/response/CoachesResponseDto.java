@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9a2d33a6d225b34321ef9faf3e41b6096f20388608ec12cc8fa97d209cbedfb9
-size 270
+package com.ssafy.api.coach.dto.response;
+
+import lombok.Data;
+
+@Data
+public class CoachesResponseDto {
+  private Long coachId;
+  private String profileImg;
+  private String memberName;
+  private Float avgScore;
+  private int reviewCount;
+  private String lessonInfo;
+}

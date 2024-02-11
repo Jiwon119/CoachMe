@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ffac197f78cc177f6c6fa0faecf0c641354d236cb7e26ff24b9c95207e939f9c
-size 235
+package com.ssafy.api.coaching.dto.request;
+
+import lombok.Data;
+
+@Data
+public class CreateCoachingRequestDto {
+  private String main;
+  private String sub;
+  private String name;
+  private String summary;
+  private String htmlDocs;
+}
