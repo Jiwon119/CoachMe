@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:342fb77f5e36c6f92f5b867b6eefea3a655f5b0d1f317ba4b37bb0cfd9a73066
-size 266
+package com.ssafy.api.coaching.dto.response;
+
+public interface CoachingResponseDtos {
+  Long getCoachId();
+
+  String getMemberName();
+
+  String getProfileImg();
+
+  Long getCoachingId();
+
+  String getCoachingName();
+
+  Long getReviewCount();
+
+  Float getAvgScore();
+}
