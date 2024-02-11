@@ -1,15 +1,3 @@
-package com.ssafy.api.coach.dto.response;
-
-import lombok.Data;
-
-@Data
-public class CoachesCoachingsResponseDto {
-
-  private Long id;
-  private String main;
-  private String sub;
-  private String name;
-  private String summary;
-  private String htmlDocs;
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:87e9ed45226d2d0d1c7ac43fc2efc72711c3d03c6e9f591f2c5963310a5be194
+size 257
