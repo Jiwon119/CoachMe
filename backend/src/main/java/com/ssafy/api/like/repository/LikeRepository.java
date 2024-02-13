@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2b3ac787757fa36d7658d69cdaf0238f4666cdb9de044d76b4837e52c9140a15
-size 464
+package com.ssafy.api.like.repository;
+
+import com.ssafy.db.entity.Coaching;
+import com.ssafy.db.entity.Likes;
+import com.ssafy.db.entity.Member;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface LikeRepository extends JpaRepository<Likes, Long> {
+  Likes findByCoameAndCoach(Member coame, Member coach);
+  Likes findByCoameAndCoaching(Member coame, Coaching coaching);
+}
