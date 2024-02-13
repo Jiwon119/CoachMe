@@ -1,21 +1,3 @@
-<template>
-  <div id="app">
-    <RouterView />
-  </div>
-</template>
-
-<script setup></script>
-
-
-<style>
-@font-face {
-    font-family: 'TheJamsil5Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-
-#app {
-  font-family:'TheJamsil5Bold';
-}
-</style>
+version https://git-lfs.github.com/spec/v1
+oid sha256:8bdc91fceb2c8fd9217e691c8968603ef829c91a35fb8a61e9ccf8ebc44254a8
+size 112
