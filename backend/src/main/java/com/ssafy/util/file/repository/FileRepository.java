@@ -1,17 +1,3 @@
-package com.ssafy.util.file.repository;
-
-import com.ssafy.db.entity.File;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.stereotype.Repository;
-
-import java.util.List;
-
-@Repository
-public interface FileRepository extends JpaRepository<File, Long> {
-
-  @Query(value = "SELECT f FROM File f " +
-      "JOIN FETCH f.coaching c " +
-      "WHERE c.coach.id = ?1")
-  List<File> findByCoachIdWithCoaching(Long coachId);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:afea95e4713eadf02e1429f0b26711e8e4fe7fd12d02191ab82bd99d39abd766
+size 618
