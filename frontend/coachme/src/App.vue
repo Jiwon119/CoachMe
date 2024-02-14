@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2e93c5f210dba75d1b4c796118422a58b40fdc2bf9da92d79e0dfc09786a0fb7
-size 440
+<template>
+  <div id="app">
+    <RouterView />
+  </div>
+</template>
+
+<script setup></script>
+
+
+<style>
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 0.5rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #6593ff;
+  border-radius: 1.5rem;
+  min-width: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #3370ff;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #c7c7c7;
+  border-radius: 1.5rem;
+}
+</style>
