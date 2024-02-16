@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6fab5b83ccf550eb6b5e06508f706f9eac1fd2570cfce7511bd51d2be837a05a
-size 409
+package com.ssafy.api.dm.dto.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class DmResponseDto {
+  private long memberId;
+  private String memberName;
+  private String memberProfileUrl;
+  private List<String> message;
+  private String createDate;
+}

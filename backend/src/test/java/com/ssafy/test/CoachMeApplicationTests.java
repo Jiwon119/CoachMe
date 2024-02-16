@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cd8c0af4555d9be8c9970f07bc889d23fffac69fceb2a615dffeaf75128bffdd
-size 210
+package com.ssafy.test;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class CoachMeApplicationTests {
+
+  @Test
+  void contextLoads() {
+  }
+
+}
