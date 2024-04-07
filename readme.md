@@ -69,6 +69,9 @@
 5. 소비자는 판매자의 라이브 강의에 직접 참여하면서 어려움을 해소할 수 있음
 6. 소비자는 시간적 제약이나 장비의 부재 등으로 화상에 참여가 제한될 경우 녹화본을 시청할 수 있음
 
+### UCC & 주요 기능 영상
+[![Video Label](http://img.youtube.com/vi/-aj0SDynwEY/0.jpg)](https://youtu.be/-aj0SDynwEY)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- 화면 -->
