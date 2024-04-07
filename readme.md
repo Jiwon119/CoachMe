@@ -76,38 +76,35 @@
 ## 2. 화면
 
 ### 메인 화면
+![image](https://github.com/Jiwon119/CoachMe/assets/92111247/a01058ad-1721-4908-9aea-5abe22386037)
 
-![메인화면](/uploads/9d1d63c380832752b83b50b8fea6abea/메인화면.JPG)
 
 ### 검색화면(코치)
 
 #### 리스트
+![image](https://github.com/Jiwon119/CoachMe/assets/92111247/5906d985-bcf2-4642-ab47-0c3e028e1a22)
 
-![코치검색페이지_리스트](/uploads/0c838c813549069e6dc336861d4bd57a/코치검색페이지_리스트.JPG)
 
 #### 카드
+![image](https://github.com/Jiwon119/CoachMe/assets/92111247/e445f002-0428-4430-886a-9fd9fff4f824)
 
-![코치검색페이지_카드](/uploads/e05882f959964ed7f2fe7118f6c24bfe/코치검색페이지_카드.JPG)
 
 ### 검색화면(코칭)
+![image](https://github.com/Jiwon119/CoachMe/assets/92111247/2fe0485c-27ed-45f7-bab0-88ef3c535a40)
 
-![코칭검색페이지](/uploads/1c317472ef49e915d2fc664e62f4dce9/코칭검색페이지.JPG)
 
 ### 마이페이지(코미)
+![image](https://github.com/Jiwon119/CoachMe/assets/92111247/baa623d7-a006-4c90-b4f5-8d905fa04c46)
 
-![마이페이지1](/uploads/13da3d54df69cb16aab53be33db14142/마이페이지1.JPG)
 
-![마이페이지2](/uploads/b8f4d8f8f2d3e0b86f6d2588e63588fd/마이페이지2.JPG)
 
 ### 마이페이지(코치)
 
-![코치페이지1](/uploads/fcbfe506b65bf83cc7d84d5ab9ed08ac/코치페이지1.JPG)
+![image](https://github.com/Jiwon119/CoachMe/assets/92111247/702c3f20-1745-4abc-ac5b-6f63c98fbeb8)
+![image](https://github.com/Jiwon119/CoachMe/assets/92111247/151cfab3-55f4-4bb5-a83f-050c7a70f8d4)
+![image](https://github.com/Jiwon119/CoachMe/assets/92111247/296554ae-ec11-4e64-8fe4-70962f4185c3)
+![image](https://github.com/Jiwon119/CoachMe/assets/92111247/89c54e43-6818-483e-85c2-9c4d5c9aa6d6)
 
-![코치페이지2](/uploads/55bd09bad42a7872f1cc4a7eec205c67/코치페이지2.JPG)
-
-![코치페이지3](/uploads/152cc8f93b2fdc31d23396021438d325/코치페이지3.JPG)
-
-![코치페이지4](/uploads/ad3fe2334d515906a1ee1a24fb06307c/코치페이지4.JPG)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,16 +113,14 @@
 ## 3. 프로젝트 구조
 
 ### 아키텍처
-
-![아키텍처](/uploads/da2c256d1e7aad7633eb2fa5eb9ce7b9/architecture.png)
+![image](https://github.com/Jiwon119/CoachMe/assets/92111247/1f43c514-c8c1-4452-a498-e3230d3cd483)
 
 ### 와이어 프레임
+![image](https://github.com/Jiwon119/CoachMe/assets/92111247/75859a2e-e5a3-446f-823f-4277d5a6fd02)
 
-![와이어프레임](/uploads/c9d8d4ae383907b1f05be185a91a3765/와이어프레임.png)
 
 ### ERD
-
-![ERD](/uploads/3bbcfcd638983d15a1a996ae38dfc333/live_coaching.png)
+![image](https://github.com/Jiwon119/CoachMe/assets/92111247/1d2e3612-cad6-4b89-b89b-ed4a145761f5)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
